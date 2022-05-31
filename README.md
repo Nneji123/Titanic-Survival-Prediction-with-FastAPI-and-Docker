@@ -50,4 +50,4 @@ docker build . -t [image-name]
 ```
 
 ## Deployment
-The site can be deployed to heroku and can also be viewed here: https://titanic-prediction-new.herokuapp.com/
+The site can be deployed to heroku and can also be viewed here: https://titanic-prediction-new.herokuapp.com/docs
