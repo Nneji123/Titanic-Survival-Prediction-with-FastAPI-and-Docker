@@ -4,6 +4,7 @@ An API machine learning model used to predict if someone survived the Titanic cr
 [![Language](https://img.shields.io/badge/language-python-blue.svg?style=flat)](https://www.python.org)
 [![Framework](https://img.shields.io/badge/framework-FastAPI-brightgreen.svg?style=flat)](http://www.fastapi.org/news.html)
 ![hosted](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
 ![build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)
 
 ## Problem Statement
@@ -20,8 +21,8 @@ The data used was gotten from [kaggle](https://www.kaggle.com/datasets/heptapod/
 
 ## Algorithm Used
 In this project I tested 6 different classification algorithms namely:
-2. Decision Tree
-3. Random Forest
+1. Decision Tree
+2. Random Forest
 
 The final model used for the app was the Random Classifier model which had the best accuracy.
 
@@ -50,4 +51,53 @@ docker build . -t [image-name]
 ```
 
 ## Deployment
-The site can be deployed to heroku and can also be viewed here: https://titanic-prediction-new.herokuapp.com/docs
+The api can be deployed using the dockerfile or the procfile on heroku.
+
+### Deployment with Dockerfile
+Assuming you have git and heroku cli installed just carry out the following steps:
+
+1. Clone the repository
+
+```
+git clone https://github.com/Nneji123/Titanic-Survival-Prediction-with-FastAPI-and-Docker.git
+```
+
+2. Change the working directory
+
+```
+cd Titanic-Survival-Prediction-with-FastAPI-and-Docker 
+```
+
+4. Create the heroku app
+
+``` 
+heroku create your-app-name 
+```
+
+Replace **your-app-name** with the name of your choosing.
+
+4. Set the heroku cli git remote to that app
+
+```
+heroku git:remote your-app-name
+```
+
+5. Set the heroku stack setting to container
+ 
+```
+heroku stack:set container
+```
+
+6. Push to heroku
+```
+git push heroku main
+```
+
+### Deployment with Github
+1. Clone the repository and copy the contents to your own repository on github
+2. Deploy with Github and Heroku then you're done.
+
+/titanic-prediction-new.herokuapp.com/docs
+
+## Live Link
+The api and its documentation can be viewed here: https://titanic-prediction-new.herokuapp.com/docs or https://titanic-prediction-new.herokuapp.com/redoc
