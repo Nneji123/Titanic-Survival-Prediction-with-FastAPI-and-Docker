@@ -44,12 +44,20 @@ Then you can view the site on your local server: http://127.0.0.1:5000/
 ## Building Docker image
 To build the docker container image;
 1. Install docker
-1. Clone the repository
-2. Then from your command line run:
+2. Clone the repository
+3. Then from your command line run:
 ```
-docker build . -t [image-name]
+docker build . -t titanicapi
 
 ```
+4. Run the docker container:
+```
+docker run -d --name mycontainer -p 5000:5000 titanicapi
+
+```
+
+Then you can view the site on your local server: http://127.0.0.1:5000/
+
 
 ## Deployment
 The api can be deployed using the dockerfile or the procfile on heroku.
