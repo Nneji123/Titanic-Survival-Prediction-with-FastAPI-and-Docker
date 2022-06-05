@@ -1,11 +1,12 @@
 # Titanic Survival Prediction with FastAPI and Docker
-An API machine learning model used to predict if someone survived the Titanic crash. Built with FastAPI and Docker.
-
-[![Language](https://img.shields.io/badge/language-python-blue.svg?style=flat)](https://www.python.org)
-[![Framework](https://img.shields.io/badge/framework-FastAPI-brightgreen.svg?style=flat)](http://www.fastapi.org/news.html)
+[![Language](https://img.shields.io/badge/language-Python-blue.svg?style=flat)](https://www.python.org)
+[![Framework](https://img.shields.io/badge/Keras-darkred.svg?style=flat&logo=keras&logoColor=white)](http://www.pytorch.org/news.html)
+[![Framework](https://img.shields.io/badge/Fastapi-darkgreen.svg?style=flat&logo=fastapi&logoColor=white)](http://www.fastapi.org/news.html)
 ![hosted](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
 ![build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)
+
+A Machine Learning model deployed as an API and used to predict if someone survived the Titanic crash. Built with TensorFlow(Keras), FastAPI and Docker.
 
 ## Problem Statement
 The RMS Titanic, a luxury steamship, sank in the early hours of April 15, 1912, off the coast of Newfoundland in the North Atlantic after sideswiping an iceberg during its maiden voyage. Of the 2,240 passengers and crew on board, more than 1,500 lost their lives in the disaster.
