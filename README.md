@@ -97,7 +97,6 @@ git push heroku main
 1. Clone the repository and copy the contents to your own repository on github
 2. Deploy with Github and Heroku then you're done.
 
-/titanic-prediction-new.herokuapp.com/docs
 
 ## Live Link
 The api and its documentation can be viewed here: https://titanic-prediction-new.herokuapp.com/docs or https://titanic-prediction-new.herokuapp.com/redoc
