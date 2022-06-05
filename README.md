@@ -1,7 +1,7 @@
 # Titanic Survival Prediction with FastAPI and Docker
-[![Language](https://img.shields.io/badge/language-Python-blue.svg?style=flat)](https://www.python.org)
-[![Framework](https://img.shields.io/badge/Keras-darkred.svg?style=flat&logo=keras&logoColor=white)](http://www.pytorch.org/news.html)
-[![Framework](https://img.shields.io/badge/FastAPI-darkgreen.svg?style=flat&logo=fastapi&logoColor=white)](http://www.fastapi.org/news.html)
+[![Language](https://img.shields.io/badge/Python-yellow.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
+[![Framework](https://img.shields.io/badge/Keras-darkred.svg?style=flat&logo=keras&logoColor=white)](http://www.tensorflow.com)
+[![Framework](https://img.shields.io/badge/FastAPI-darkgreen.svg?style=flat&logo=fastapi&logoColor=white)](http://www.fastapi.tiangolo.com)
 ![hosted](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
 ![build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)
